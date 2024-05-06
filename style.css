@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav1{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid rgb(66, 60, 60);
+    background: darkblue;
+    color: #c0c0c0;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #c0c0c0;
+
+}
+
+.container{
+    background: black;
+    padding: 1rem 0;
+
+}
+
+.home{
+  background-color: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid #c0c0c0;
+    margin: 2rem 1rem;
+    border-radius: 20px;
+    min-height: 50vh;
+}
+
+.home img{
+    width: 15rem;
+    border-radius: 100%;
+    border: 1px solid white;
+
+}
+
+.home h1{
+    color: white;
+}
+
+.home p{
+    padding: 6rem;
+    color: #c0c0c0;
+    margin: 0 1rem;
+}
+
+.tentang1-container{
+    min-height: 40vh;
+}
+
+.tentang-container{
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 1rem;
+    flex-direction: column;    
+    gap:1rem;
+    color: white;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+    color: #c0c0c0;
+}
+
+.tentang-container h1{
+    color: white;
+    margin: 1rem;
+}
+
+.kegiatan1{
+    /* min-height: 30vh; */
+
+}
+
+.kegiatan{
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 1rem;
+    flex-direction: column;    
+    gap:1rem;
+    color: white;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+    min-height: 50vh;
+    
+}
+
+.kegiatan img{
+  width: 20rem;
+  /* border: 10rem; */
+  border-radius: 15%;
+  
+}
+
+.kontak-container{
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66);
+    padding: .5rem 1rem;
+    margin:0 1rem ;
+    gap: 1rem;        
+    color: white;
+    text-align: center;
+    
+}
+
+.kontak-container h1{
+    color: white;
+    margin: 1.5rem ;
+}
+
+
+.kontak-container div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 4px 0;
+}
+
+footer{
+    text-align: center;
+    background: darkblue;
+    color: #c0c0c0;
+    padding: .5rem 2rem;
+    border-top: 1px solid black;
+}
+
+
+
